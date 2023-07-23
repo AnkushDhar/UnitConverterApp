@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("DefaultLocale")
             @Override
             public void onClick(View view) {
-//                Toast.makeText(MainActivity.this, "Hi click listener worked", Toast.LENGTH_SHORT).show();
                 String s = editText.getText().toString();
                 int kg = Integer.parseInt(s);
                 double pound = 2.205 * kg;
